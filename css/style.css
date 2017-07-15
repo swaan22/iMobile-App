@@ -1,0 +1,380 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+section{
+   width: 100%;   
+   margin: 0 auto;
+}
+header{
+    background: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+.head-part{
+    width: 1170px;
+}
+.feature-part{
+    width: 1170px;
+}
+.banner-part{
+    width: 1170px;
+}
+.last-part{
+    width: 1170px;
+}
+.footer-part{
+    width: 1170px;
+}
+img{
+    max-width: 100%;
+}
+.head{
+    overflow: hidden;
+    padding: 13px 100px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    text-align: right; 
+    margin: 20px 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 6px 8px;
+    background: #3f3f3f;
+    color: white;
+    border-radius: 100px;
+}
+nav ul li a:hover{
+    background-color: red;
+    color: white;
+}
+.header-content{
+   padding: 60px 0 42px 100px;
+   width: 23%;
+}
+.header-content h2{
+   margin: 0;
+   font-size: 36px;
+   color: white;
+}
+.header-content p{
+   margin: 0;
+   padding: 10px 0 25px;
+   color: white;
+}
+.header-content a{
+   padding: 10px 12px;
+   background: #131313;
+   color: white;
+   border-radius: 50px;
+   text-decoration: none;
+}
+.header-content a:hover{ 
+    background-color: red;
+    
+}
+.header-content i{}
+.feature-content{
+    padding: 0 150px 15px;
+}
+.feature-content h2{
+    margin: 0;
+    text-align: center;
+    padding: 20px 0 10px;
+    color: #666060;
+}
+.feature-content p{
+    margin: 0;
+    text-align: center;
+    color: #4d4b4b;
+}
+.box-area{
+    padding: 0 120px;
+    overflow: hidden;
+    margin: 0 0 25px;
+}
+.feature-box{
+    width: 33.33%;
+    float: left;
+}
+.feature-box img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    margin: 0 80px;
+}
+.feature-box h4{
+    text-align: center;
+    margin: 7px 0;
+    font-size: 22px;
+}
+.feature-box p{
+    text-align: justify;
+    margin: 0;
+    color: #4d4747;
+    padding: 0 50px;
+}
+.plus{
+    background-color: red;
+    padding: 3px 5px;
+    color: white;
+    margin: 0px 235px;
+}
+.banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.middle-content{
+    width: 40%;
+    padding: 70px 0 70px 100px;
+}
+.hocolate{
+    color: red;
+}
+.pudding{
+    color: ;
+}
+.fruit{
+    color: red;
+}
+.cake{
+    color: red;
+}
+.middle-content h2{
+    margin: 0;
+    font-size: 30px;
+}
+.middle-content p{
+    margin: 25px 0 40px;
+}
+.middle-content a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 100px;
+}
+.middle-content a:hover{
+    background-color: #DA2C8E;
+
+}
+.last-content{
+    padding: 0 140px;
+    border-bottom: 1px solid #ece2e2;
+}
+.last-content h5{
+    margin: 0;
+    text-align: center;
+    padding: 24px 0 0;
+    font-size: 15px;
+    color: #7e7979;
+}
+.last-content h6{
+    text-align: center;
+    font-size: 13px;
+    margin: 14px 0;
+    color: #4f4c4c;
+}
+
+.form{text-align: center;width: 960px;margin: 0 auto;}
+.form h2{
+    margin: 10px;
+    font-size: 30px;
+    color: #868080;
+}
+.email{
+    float: left;
+    margin: 5px 5px;
+}
+.subject{
+    float: left;
+    margin: 5px 5px;
+}
+input{
+    border-radius: 10px;
+    height: 25px;
+    width: 243px;
+}
+textarea{
+    min-width: 500px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+.text{
+   
+}
+.up-part{
+    overflow: hidden;
+    padding: 0 220px;
+}
+
+
+.submit{}
+.submit input{
+    width: 62px;
+    background: red;
+    color: white;
+}
+
+.next-page{
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #f3ebeb;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 100%;
+    border: 3px solid gray;
+    display: inline-block;
+}
+.dot2{
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 100%;
+    border: 3px solid gray;
+    display: inline-block;
+}
+footer{
+    background: #5f5d5d;
+    overflow: hidden;
+}
+.main-footer{
+    padding: 30px 100px;
+}
+footer .logo1{}
+footer .logo1 img{
+    width: 20%;
+}
+.footer-content{overflow: hidden;}
+.footer-box1{
+    width: 33.33%;
+    float: left;
+}
+.footer-box1 h5{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0 20px;
+}
+.footer-box1 a{}
+.footer-box1 i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 25px;
+    float: left;
+}
+.footer-box1 p{
+    margin: 20px 55px;
+    color: white;
+}
+.facebook{
+    color: white;
+    background-color: blue;
+}
+.facebook:hover{
+    color: blue;
+    background-color: white;
+}
+.linkedin{
+    color: white;
+    background-color: black;
+}
+.linkedin:hover{
+    color: black;
+    background-color: white;
+}
+.instagram{
+    color: white;
+    background-color: red;
+}
+.instagram:hover{
+    color: red;
+    background-color: white;
+}
+.footer-box2{
+    width: 33.33%;
+    float: left;
+}
+.footer-box2 h5{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0 20px;
+}
+.footer-box2 a{}
+.footer-box2 i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 25px;
+    float: left;
+}
+.twitter{
+    color: white; 
+    background-color: #008AF3;
+}
+.twitter:hover{
+    color: #008AF3;
+    background-color: white;
+}
+.footer-box2 .p1{
+    margin: 20px 55px 10px;
+    color: white;
+}
+.footer-box2 p{
+    color: white;
+    margin: 0 0 20px;
+    width: 90%;
+}
+.p3 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    border-radius: 100px;
+    background: black;
+    padding: 2px 8px;
+}
+.p3 a:hover{
+    background-color: red;
+}
+.footer-box3{
+    width: 33.33%;
+    float: left;
+}
+.footer-box3 h5{
+    color: white;
+    font-size: 20px;
+    margin: 30px 0 20px;
+}
+.footer-box3 p{
+    color: white;
+}
+
+
+
+
+
